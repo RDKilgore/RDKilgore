@@ -1,5 +1,5 @@
 - 👋 Hi, I’m @RDKilgore
-- 👀 I’m interested in Skateboarding, Yoga, Snowbaording
+- 👀 Skateboard, Art, Yoga
 
 <!---
 RDKilgore/RDKilgore is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
