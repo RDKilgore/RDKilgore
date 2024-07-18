@@ -1,0 +1,36 @@
+
+body{
+    border: 3px solid green;
+    min-height: 100vh;
+}
+.container{
+    display:grid;
+    border: 2px solid red;
+    height: 75vh;
+    width: 75%;
+    gap: 9px;
+    grid-template-columns: [grid-col-start]1fr [col-2-start]1fr [col-3-start]1fr [col-4-start]1fr [col-5-start]1fr [col-6-start]1fr [col-7-start]1fr [col-8-start]1fr[grid-col-end];
+    grid-template-rows: [grid-row-start]1fr [row-2-start]1fr [row-3-start]1fr [grid-row-end];
+    grid-template-areas: "one one one one one one one one"
+                        "four four four . five five six six"
+                        "four four four . seven seven eight eight"     
+}
+.inline-display{
+ grid-area: one;
+}
+
+#imageFour{
+    grid-area: four;
+}
+#imageFive{
+    grid-area: five;
+}
+#imageSix{
+    grid-area: six;
+}
+#imageSeven{
+    grid-area: seven;
+}
+#imageEight{
+    grid-area: eight;
+}
